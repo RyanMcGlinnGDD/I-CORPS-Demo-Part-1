@@ -1,0 +1,453 @@
+{
+    "location": "SFPD Precinct",
+    "actors":[
+        {
+            "name": "Dustin"
+        },
+        {
+            "name": "Silas"
+        },
+        {
+            "name": "Viola"
+        }
+    ],
+    "scenes":[
+        {
+            "backdrop": "policedepartment.jpg"
+        }
+    ],
+    "props":[
+        {
+            "prop": "content/evidence/item/folder1.png"
+        },
+        {
+            "prop": "content/evidence/tutorial/tutorial01.png"
+        },
+        {
+            "prop": "content/evidence/tutorial/tutorial02.png"
+        },
+        {
+            "prop": "content/evidence/tutorial/tutorial03.png"
+        },
+        {
+            "prop": "content/evidence/tutorial/tutorial04.png"
+        }
+        
+    ],
+	"dialogue":[
+		{
+            "type": "dialogue",
+            "speaker": 0,
+            "statement": "Good afternoon comissioner.",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 0,
+                    "expression": 0,
+                    "active": true,
+                    "position": -40
+                },
+                {
+                    "type": "actorAction",
+                    "target": 2,
+                    "expression": 0,
+                    "active": true,
+                    "position": 40
+                },
+                {
+                    "type": "locationMarker",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 0,
+            "statement": "I heard that you wanted my assistance on a new project?",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 0,
+                    "expression": 4,
+                    "active": true,
+                    "position": -40
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 2,
+            "statement": "That's correct detective.",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 0,
+                    "expression": 0,
+                    "active": true,
+                    "position": -40
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 2,
+            "statement": "We were recently contacted by the CIA about a new investigative program they've been developing.",
+            "action": [
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 2,
+            "statement": "They would like to test it here in our city before initiating a full scale deployment.",
+            "action": [
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 2,
+            "statement": "An agent from Washington arrived this morning and I'm assigning you to a special unit with him.",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 2,
+                    "expression": 0,
+                    "active": false,
+                    "position": 40
+                },
+                {
+                    "type": "actorAction",
+                    "target": 1,
+                    "expression": 0,
+                    "active": true,
+                    "position": 40
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 1,
+            "statement": "Greetings detective. I'm Agent Silas Pryce from ICORPS, the CIA Special Investigation Corps. Please call me Silas.",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 1,
+                    "expression": 1,
+                    "active": true,
+                    "position": 40
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 0,
+            "statement": "Hello Silas, I'm detective Dustin Stone. Pleasure to be working with you.",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 0,
+                    "expression": 1,
+                    "active": true,
+                    "position": -40
+                },
+                {
+                    "type": "actorAction",
+                    "target": 1,
+                    "expression": 0,
+                    "active": true,
+                    "position": 40
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 0,
+            "statement": "What exactly will this new special investigation method entail?",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 0,
+                    "expression": 4,
+                    "active": true,
+                    "position": -40
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 1,
+            "statement": "I believe that it would be best if I were to show you how it worked via practical application.",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 0,
+                    "expression": 0,
+                    "active": true,
+                    "position": -40
+                },
+                {
+                    "type": "actorAction",
+                    "target": 1,
+                    "expression": 0,
+                    "active": true,
+                    "position": 40
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 1,
+            "statement": "Commissioner, if you may...",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 1,
+                    "expression": 5,
+                    "active": true,
+                    "position": 40
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 2,
+            "statement": "That's right. A low level case surfaced just a while earlier.",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 1,
+                    "expression": 0,
+                    "active": true,
+                    "position": 40
+                },
+                {
+                    "type": "actorAction",
+                    "target": 2,
+                    "expression": 0,
+                    "active": true,
+                    "position": -40
+                },
+                {
+                    "type": "actorAction",
+                    "target": 0,
+                    "expression": 0,
+                    "active": false,
+                    "position": -40
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 2,
+            "statement": "This will be the perfect opportunity to put the ICORPS investigation system to the test.",
+            "action": [
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 2,
+            "statement": "Judging by what I could see, there umm... really shouldn't be any issues.",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 2,
+                    "expression": 3,
+                    "active": true,
+                    "position": -40
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 0,
+            "statement": "What exactly do you mean by that?",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 0,
+                    "expression": 5,
+                    "active": true,
+                    "position": 40
+                },
+                {
+                    "type": "actorAction",
+                    "target": 1,
+                    "expression": 0,
+                    "active": false,
+                    "position": 40
+                },
+                {
+                    "type": "actorAction",
+                    "target": 2,
+                    "expression": 0,
+                    "active": true,
+                    "position": -40
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 2,
+            "statement": "You'll see what I mean in a moment.",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 0,
+                    "expression": 0,
+                    "active": true,
+                    "position": 40
+                },
+                {
+                    "type": "actorAction",
+                    "target": 2,
+                    "expression": 3,
+                    "active": true,
+                    "position": -40
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 2,
+            "statement": "Anyhow, I've had the casefile transferred to your workstation.",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 2,
+                    "expression": 0,
+                    "active": true,
+                    "position": -40
+                },
+                {
+                    "type": "propAction",
+                    "target": 0
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 2,
+            "statement": "You and Agent Pryce can take it from here. I eagerly await the results of the investigation.",
+            "action": [
+                {
+                    "type": "propAction",
+                    "target": -1
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 0,
+            "statement": "Got it covered.",
+            "action": [
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 0,
+            "statement": "How should we proceed?",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 2,
+                    "expression": 0,
+                    "active": false,
+                    "position": -40
+                },
+                {
+                    "type": "actorAction",
+                    "target": 0,
+                    "expression": 5,
+                    "active": true,
+                    "position": 40
+                },
+                {
+                    "type": "actorAction",
+                    "target": 1,
+                    "expression": 0,
+                    "active": true,
+                    "position": -40
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 1,
+            "statement": "Let's visualize the state of the investigation across a conspiracy board.",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 0,
+                    "expression": 0,
+                    "active": true,
+                    "position": 40
+                },
+                {
+                    "type": "propAction",
+                    "target": 1
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 1,
+            "statement": "As the investigation goes, we'll add relevant leads and pieces of evidence we find.",
+            "action": [
+                {
+                    "type": "propAction",
+                    "target": 2
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 1,
+            "statement": "With all the relevant pieces of the puzzle together, we'll be able to draw connections and reach conclusions.",
+            "action": [
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 1,
+            "statement": "By reaching new conclusions we can put new leads on the board and push further.",
+            "action": [
+                {
+                    "type": "propAction",
+                    "target": 3
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 1,
+            "statement": "For starters, let's consider the that casefile that the comissioner sent you.",
+            "action": [
+                {
+                    "type": "propAction",
+                    "target": 0
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 1,
+            "statement": "If we analyze it, we can start to get our bearings in this case.",
+            "action": [
+                {
+                    "type": "propAction",
+                    "target": 4
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 0,
+            "statement": "Alright, let's get started.",
+            "action": [
+                {
+                    "type": "propAction",
+                    "target": -1
+                }
+            ]
+        }
+	]
+}

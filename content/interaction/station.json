@@ -1,0 +1,78 @@
+{
+    "boardName": "SFPD Precinct",
+    "openingActions":[
+        {
+            "type": "dialogue",
+            "target": "station/station01.json"
+        },
+        {
+            "type": "unlockMystery",
+            "target": 0
+        },
+        {
+            "type": "unlockEvidence",
+            "target": 0
+        }
+    ],
+    "evidence":[
+        {
+            "num": 0,
+            "name": "Casefile",
+            "description": "The file covering the suspect taken in for this case.",
+            "insight": "A weighty file containing the records of numerous previous run-ins with the force.",
+            "x": -20,
+            "y": -60,
+            "visible": false,
+            "analyzed": false,
+            "revelation": 0,
+            "connection": [],
+            "previous": [
+                
+            ],
+            "insightOutcome":[
+                {
+                    "type": "dialogue",
+                    "target": "station/station02.json"
+                },
+                {
+                    "type": "unlockEvidence",
+                    "target": 1
+                },
+                {
+                    "type": "unlockBoard",
+                    "target": 1
+                },
+                {
+                    "type": "unlockClue",
+                    "target": {
+                        "array": 0,
+                        "clue": 0
+                    }
+                }
+            ],
+            "interactions": [
+            ],
+            "image": "content/evidence/item/folder1.png"
+        },
+        {
+            "num": 1,
+            "name": "Freddie Silva",
+            "description": "The suspect in this case, Freddie Silva is a small time crook with a long history of petty crime and disorderly conduct.",
+            "insight": "This is a potentially important person of interest to consider for solving this case overall.",
+            "x": 20,
+            "y": -20,
+            "visible": false,
+            "analyzed": true,
+            "revelation": "Person of Interest",
+            "connection": [],
+            "previous": [
+                0
+            ],
+            "insightOutcome":[
+            ],
+            "interactions": [
+            ],
+            "image": "content/evidence/character/freddie.png"
+        }
+    ]
+}

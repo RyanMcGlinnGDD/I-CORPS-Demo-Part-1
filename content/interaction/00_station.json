@@ -1,0 +1,107 @@
+{
+    "boardName": "Investigation HQ",
+    "openingActions":[
+        {
+            "type": "dialogue",
+            "target": "01_plaza/01.json"
+        }
+    ],
+    "evidence":[
+        {
+            "num": 0,
+            "name": "Upper Left",
+            "description": "Test Node 1",
+            "insight": "Result of test node 1 analysis.",
+            "x": -100,
+            "y": -100,
+            "visible": true,
+            "analyzed": false,
+            "revelation": 0,
+            "connection": [],
+            "previous": [
+                
+            ],
+            "insightOutcome":[
+                {
+                    "type": "dialogue",
+                    "target": "01_plaza/01.json"
+                }
+            ],
+            "interactions": [
+            ],
+            "image": "content/evidence/01_plaza/security.png"
+        },
+        {
+            "num": 1,
+            "name": "Upper Right",
+            "description": "Test Node 2",
+            "insight": "Result of test node 2 analysis.",
+            "x": 100,
+            "y": -100,
+            "visible": true,
+            "analyzed": false,
+            "revelation": 0,
+            "connection": [],
+            "previous": [
+                
+            ],
+            "insightOutcome":[
+                {
+                    "type": "dialogue",
+                    "target": "01_plaza/01.json"
+                }
+            ],
+            "interactions": [
+            ],
+            "image": "content/evidence/01_plaza/security.png"
+        },
+        {
+            "num": 2,
+            "name": "Bottom Right",
+            "description": "Test Node 3",
+            "insight": "Result of test node 3 analysis.",
+            "x": 100,
+            "y": 100,
+            "visible": true,
+            "analyzed": false,
+            "revelation": 0,
+            "connection": [],
+            "previous": [
+                
+            ],
+            "insightOutcome":[
+                {
+                    "type": "dialogue",
+                    "target": "01_plaza/01.json"
+                }
+            ],
+            "interactions": [
+            ],
+            "image": "content/evidence/01_plaza/security.png"
+        },
+        {
+            "num": 3,
+            "name": "Bottom Left",
+            "description": "Test Node 4",
+            "insight": "Result of test node 4 analysis.",
+            "x": -100,
+            "y": 100,
+            "visible": true,
+            "analyzed": false,
+            "revelation": 0,
+            "connection": [],
+            "previous": [
+                
+            ],
+            "insightOutcome":[
+                {
+                    "type": "dialogue",
+                    "target": "01_plaza/01.json"
+                }
+            ],
+            "interactions": [
+            ],
+            "image": "content/evidence/01_plaza/security.png"
+        }
+    ]
+}

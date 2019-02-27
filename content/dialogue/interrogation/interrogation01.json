@@ -1,0 +1,364 @@
+{
+    "location": "Interrogation Room",
+    "actors":[
+        {
+            "name": "Dustin"
+        },
+        {
+            "name": "Silas"
+        },
+        {
+            "name": "Freddie"
+        }
+    ],
+    "scenes":[
+        {
+            "backdrop": "interrogationroom.jpg"
+        }
+    ],
+    "props":[
+        {
+            "prop": "content/evidence/item/briefcase.png"
+        },
+        {
+            "prop": "content/evidence/tutorial/tutorial04.png"
+        },
+        {
+            "prop": "content/evidence/tutorial/tutorial10.png"
+        },
+        {
+            "prop": "content/evidence/tutorial/tutorial11.png"
+        },
+        {
+            "prop": "content/evidence/tutorial/tutorial12.png"
+        }
+    ],
+	"dialogue":[
+		{
+            "type": "dialogue",
+            "speaker": 0,
+            "statement": "Hello Freddie, I can't say I'm happy to see you here.",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 0,
+                    "expression": 0,
+                    "active": true,
+                    "position": -20
+                },
+                {
+                    "type": "actorAction",
+                    "target": 1,
+                    "expression": 0,
+                    "active": true,
+                    "position": -60
+                },
+                {
+                    "type": "actorAction",
+                    "target": 2,
+                    "expression": 0,
+                    "active": true,
+                    "position": 50
+                },
+                {
+                    "type": "locationMarker",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 2,
+            "statement": "But I'm happy to see you Detective.",
+            "action": [
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 2,
+            "statement": "This whole thing's a disaster like you wouldn't believe.",
+            "action": [
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 2,
+            "statement": "I was just walking around minding my business and then BAM. Back in the slammer.",
+            "action": [
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 0,
+            "statement": "...",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 0,
+                    "expression": 3,
+                    "active": true,
+                    "position": -20
+                },
+                {
+                    "type": "actorAction",
+                    "target": 1,
+                    "expression": 3,
+                    "active": true,
+                    "position": -60
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 1,
+            "statement": "...",
+            "action": [
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 0,
+            "statement": "Your arrest report seems to suggest that \"minding your own business\" was dealing drugs on a street corner.",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 0,
+                    "expression": 0,
+                    "active": true,
+                    "position": -20
+                },
+                {
+                    "type": "actorAction",
+                    "target": 1,
+                    "expression": 0,
+                    "active": true,
+                    "position": -60
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 0,
+            "statement": "The arresting officer responded to reports of a \"suspicious person\" and found this bag full of drugs on your person.",
+            "action": [
+                {
+                    "type": "propAction",
+                    "target": 0
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 2,
+            "statement": "Oh come on that's slander. I understand that I don't look like a the most upstanding of citizens but there's no way that I'd be stupid enough to carry around a bag of illegal substance with my reputation.",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 2,
+                    "expression": 3,
+                    "active": true,
+                    "position": 50
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 2,
+            "statement": "I've never seen that bag in my life.",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 2,
+                    "expression": 0,
+                    "active": true,
+                    "position": 50
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 2,
+            "statement": "I was just minding my own business. Just minding my own business.",
+            "action": [
+                {
+                    "type": "propAction",
+                    "target": -1
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 2,
+            "statement": "Anyhow, what's up with the Gov? Is he joining the force?",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 2,
+                    "expression": 5,
+                    "active": true,
+                    "position": 50
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 0,
+            "statement": "I thought you were minding your own business?",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 1,
+                    "expression": 1,
+                    "active": true,
+                    "position": -60
+                },
+                {
+                    "type": "actorAction",
+                    "target": 2,
+                    "expression": 0,
+                    "active": true,
+                    "position": 50
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 2,
+            "statement": "Oh. Right. Got it.",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 1,
+                    "expression": 0,
+                    "active": true,
+                    "position": -60
+                },
+                {
+                    "type": "actorAction",
+                    "target": 2,
+                    "expression": 3,
+                    "active": true,
+                    "position": 50
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 0,
+            "statement": "Alright \"Gov,\" what do you think?",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 0,
+                    "expression": 5,
+                    "active": true,
+                    "position": 40
+                },
+                {
+                    "type": "actorAction",
+                    "target": 1,
+                    "expression": 0,
+                    "active": true,
+                    "position": -40
+                },
+                {
+                    "type": "actorAction",
+                    "target": 2,
+                    "expression": 0,
+                    "active": false,
+                    "position": 50
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 1,
+            "statement": "Freddie is definitely suspicious.",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 0,
+                    "expression": 0,
+                    "active": true,
+                    "position": 40
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 1,
+            "statement": "While we can analyze the leads we have so far, things are clear cut enough that we can probably move on to the next step.",
+            "action": [
+                {
+                    "type": "propAction",
+                    "target": 1
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 1,
+            "statement": "If you think two pieces of evidence fit together, you can click and drag to draw a line between them to form a connection.",
+            "action": [
+                {
+                    "type": "propAction",
+                    "target": 2
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 1,
+            "statement": "If we draw connections smartly, we can reach new conclusions using the pieces of evidence we already have.",
+            "action": [
+                {
+                    "type": "propAction",
+                    "target": 3
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 1,
+            "statement": "This is the key functionality of the ICORPS system and maximizes the efficiency of investigations.",
+            "action": [
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 1,
+            "statement": "Just be aware that each time we attempt to draw a connection, we expend approximately an hour of time.",
+            "action": [
+                {
+                    "type": "propAction",
+                    "target": 4
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 1,
+            "statement": "We need to spend our time wisely, if the case goes cold, we've failed.",
+            "action": [
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 0,
+            "statement": "Alright, I'll keep that in mind.",
+            "action": [
+                {
+                    "type": "propAction",
+                    "target": -1
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 0,
+            "statement": "Let's give it a shot.",
+            "action": [
+            ]
+        }
+	]
+}

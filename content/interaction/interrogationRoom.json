@@ -1,0 +1,143 @@
+{
+    "boardName": "Interrogation Room",
+    "openingActions":[
+        {
+            "type": "dialogue",
+            "target": "interrogation/interrogation01.json"
+        },
+        {
+            "type": "unlockEvidence",
+            "target": 0
+        },
+        {
+            "type": "unlockEvidence",
+            "target": 1
+        },
+        {
+            "type": "unlockClue",
+            "target": {
+                "array": 1,
+                "clue": 0
+            }
+        }
+    ],
+    "evidence":[
+        {
+            "num": 0,
+            "name": "Drug Deal",
+            "description": "Freddie was caught up at the scene of a drug deal when he was arrested. He claims to have nothing to do with it.",
+            "insight": "This is a potentially important event to consider for solving this case overall.",
+            "x": -80,
+            "y": 0,
+            "visible": false,
+            "analyzed": true,
+            "revelation": "Method",
+            "connection": [],
+            "previous": [
+            ],
+            "insightOutcome":[
+            ],
+            "interactions": [
+                {
+                    "target": 1,
+                    "result": [
+                        {
+                            "type": "spendTime",
+                            "target": {
+                                "cost": 1,
+                                "notification": ""
+                            }
+                        },
+                        {
+                            "type": "dialogue",
+                            "target": "interrogation/interaction0-1.json"
+                        },
+                        {
+                            "type": "unlockEvidence",
+                            "target": 2
+                        },
+                        {
+                            "type": "unlockClue",
+                            "target": {
+                                "array": 2,
+                                "clue": 0
+                            }
+                        }
+                    ]
+                }
+            ],
+            "image": "content/evidence/item/drugs.png"
+        },
+        {
+            "num": 1,
+            "name": "Crime Scene Briefcase",
+            "description": "A briefcase that was stuffed with drugs found at the scene of the arrest. Freddie claims it isn't his.",
+            "insight": "A tag reading \"Property of Freddie Silva. If lost, please return.\" is stitched on the inside of the front flap.",
+            "x": 0,
+            "y": -60,
+            "visible": false,
+            "analyzed": false,
+            "revelation": 0,
+            "connection": [],
+            "previous": [
+            ],
+            "insightOutcome":[
+                {
+                    "type": "dialogue",
+                    "target": "interrogation/insightBriefcase.json"
+                }
+            ],
+            "interactions": [
+                {
+                    "target": 0,
+                    "result": [
+                        {
+                            "type": "spendTime",
+                            "target": {
+                                "cost": 1,
+                                "notification": ""
+                            }
+                        },
+                        {
+                            "type": "dialogue",
+                            "target": "interrogation/interaction0-1.json"
+                        },
+                        {
+                            "type": "unlockEvidence",
+                            "target": 2
+                        },
+                        {
+                            "type": "unlockClue",
+                            "target": {
+                                "array": 2,
+                                "clue": 0
+                            }
+                        }
+                    ]
+                }
+            ],
+            "image": "content/evidence/item/briefcase.png"
+        },
+        {
+            "num": 2,
+            "name": "Gambling Debt",
+            "description": "Freddie is heavily in debt and is desperate to make money, regardless of the legality.",
+            "insight": "This is a potentially important motive to consider for solving this case overall.",
+            "x": 20,
+            "y": 40,
+            "visible": false,
+            "analyzed": true,
+            "revelation": "Motive",
+            "connection": [],
+            "previous": [
+                0,
+                1
+            ],
+            "insightOutcome":[
+            ],
+            "interactions": [
+            ],
+            "image": "content/evidence/item/money.png"
+        }
+    ]
+}

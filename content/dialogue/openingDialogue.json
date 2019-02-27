@@ -1,0 +1,112 @@
+//TODO: write entire opening dialogue sequence
+
+{
+    "location": "Atrium",
+    "actors":[
+        {
+            "name": "Dustin"
+        },
+        {
+            "name": "Silas"
+        }
+    ],
+    "scenes":[
+        {
+            "backdrop": "plaza.png"
+        },
+        {
+            "backdrop": "plaza_statue.png"
+        }
+    ],
+    "props":[
+        {
+            "prop": "folder1.png"
+        },
+        {
+            "prop": "folder2.png"
+        },
+        {
+            "prop": "folder3.png"
+        }
+    ],
+	"dialogue":[
+		{
+            "type": "dialogue",
+            "speaker": 0,
+            "expression": "normal",
+            "statement": "This is a test phrase",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 0,
+                    "expression": 0,
+                    "active": true,
+                    "position": 50
+                },
+                {
+                    "type": "actorAction",
+                    "target": 1,
+                    "expression": 0,
+                    "active": true,
+                    "position": -50
+                },
+                {
+                    "type": "locationMarker",
+                    "text": ""
+                },
+                {
+                    "type": "propAction",
+                    "target": 0
+                }
+            ]
+        },
+        {
+            "type": "transition",
+            "scene": 1,
+            "action": [
+                {
+                    "type": "locationMarker",
+                    "text": "Statue Plaza"
+                }
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": 1,
+            "expression": "normal",
+            "statement": "This is a different character responding",
+            "action": [
+                {
+                    "type": "actorAction",
+                    "target": 0,
+                    "expression": 1,
+                    "active": true,
+                    "position": 50
+                },
+                {
+                    "type": "actorAction",
+                    "target": 1,
+                    "expression": 1,
+                    "active": true,
+                    "position": -50
+                },
+                {
+                    "type": "locationMarker",
+                    "text": ""
+                }
+            ]
+		},
+        {
+            "type": "dialogue",
+            "speaker": 0,
+            "expression": "normal",
+            "statement": "The first character speaks again",
+            "action": [
+                {
+                    "type": "propAction",
+                    "target": 2
+                }
+            ]
+		}
+	]
+}
